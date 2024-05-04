@@ -10,3 +10,6 @@ target_compile_options(conversion PRIVATE "-Wconversion;-Wsign-conversion")
 
 add_executable(unused unused.cpp)
 target_compile_options(unused PRIVATE "-Wunused")
+
+add_executable(shadow shadow.cpp)
+target_compile_options(shadow PRIVATE "-Wshadow")
