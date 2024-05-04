@@ -13,3 +13,6 @@ target_compile_options(unused PRIVATE "-Wunused")
 
 add_executable(shadow shadow.cpp)
 target_compile_options(shadow PRIVATE "-Wshadow")
+
+add_executable(return_type return_type.cpp)
+target_compile_options(return_type PRIVATE "-Wreturn-type")
