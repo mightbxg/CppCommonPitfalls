@@ -16,3 +16,6 @@ target_compile_options(shadow PRIVATE "-Wshadow")
 
 add_executable(return_type return_type.cpp)
 target_compile_options(return_type PRIVATE "-Wreturn-type")
+
+add_executable(sign_compare sign_compare.cpp)
+target_compile_options(sign_compare PRIVATE "-Wsign-compare")
